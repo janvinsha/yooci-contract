@@ -116,6 +116,10 @@ module.exports = {
       url: process.env.ALCHEMY_URL,
       accounts: [process.env.PRIVATE_KEY],
     },
+    skale: {
+      url: process.env.SKALE_ENDPOINT_URL,
+      accounts: [process.env.PRIVATE_KEY],
+    },
   },
   gasReporter: {
     enabled: true,
